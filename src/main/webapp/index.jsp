@@ -12,6 +12,9 @@
 
     <p>This application is created for learning CI/CD.</p>
 
+    <p>CI/CD Pipeline is working automatically!</p>
+
+
     <p>Build Tool: Maven</p>
     <p>Application Server: Apache Tomcat</p>
 
