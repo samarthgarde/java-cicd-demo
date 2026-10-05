@@ -23,5 +23,13 @@ pipeline {
             }
         }
 
+        stage('Deploy to Tomcat') {
+            steps {
+                bat '''
+                    copy /Y "target\\java-cicd-demo.war" "C:\\Program Files\\Apache Software Foundation\\Tomcat 10.1\\webapps\\java-cicd-demo.war"
+                '''
+            }
+        }
+
     }
 }
