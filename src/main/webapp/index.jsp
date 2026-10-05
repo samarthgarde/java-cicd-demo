@@ -12,7 +12,7 @@
 
     <p>This application is created for learning CI/CD.</p>
 
-    <p>CI/CD Pipeline is working automatically!</p>
+    <p>CI/CD Pipeline is fully automated!</p>
 
 
     <p>Build Tool: Maven</p>
