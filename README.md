@@ -2,3 +2,52 @@
 
 A simple Java web application demonstrating an automated CI/CD pipeline using GitHub, Jenkins, Maven, and Apache Tomcat.
 
+## Project Overview
+
+This project demonstrates how source code changes can be automatically built, tested, packaged, and deployed to an Apache Tomcat server using Jenkins.
+
+## CI/CD Workflow
+
+Developer
+   ↓
+GitHub
+   ↓
+GitHub Webhook
+   ↓
+Jenkins
+   ↓
+Maven Build
+   ↓
+Maven Test
+   ↓
+WAR Package
+   ↓
+Apache Tomcat
+   ↓
+Web Application
+
+## Technologies Used
+
+- Java
+- JSP
+- Maven
+- Jenkins
+- Git & GitHub
+- Apache Tomcat
+- GitHub Webhooks
+- ngrok
+
+## Project Structure
+
+```text
+java-cicd-demo/
+├── pom.xml
+├── Jenkinsfile
+├── README.md
+├── .gitignore
+└── src/
+    ├── main/
+    │   └── webapp/
+    │       └── index.jsp
+    └── test/
+        └── java/
