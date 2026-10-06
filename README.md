@@ -51,3 +51,16 @@ java-cicd-demo/
     │       └── index.jsp
     └── test/
         └── java/
+
+## CI/CD Pipeline
+
+The CI/CD pipeline is set up to automate the build, test, and deployment process:
+
+1.**Build:** Maven is used to compile the code and package it into a WAR file.
+2.**Deploy:** The WAR file is deployed to Apache Tomcat for testing and production.
+3.**Automation:** Jenkins orchestrates the entire pipeline, ensuring seamless integration and deployment.
+
+## Commit History
+
+- **Main Commit:** Updated index.jsp and configured the CI/CD pipeline.
+- **First Commit:** Initial project setup with pom.xml and basic structure.
