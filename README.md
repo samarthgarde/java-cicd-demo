@@ -58,7 +58,9 @@ java-cicd-demo/
 The CI/CD pipeline is set up to automate the build, test, and deployment process:
 
 1.**Build:** Maven is used to compile the code and package it into a WAR file.
+
 2.**Deploy:** The WAR file is deployed to Apache Tomcat for testing and production.
+
 3.**Automation:** Jenkins orchestrates the entire pipeline, ensuring seamless integration and deployment.
 
 ## Commit History
