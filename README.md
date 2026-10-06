@@ -51,6 +51,7 @@ java-cicd-demo/
     │       └── index.jsp
     └── test/
         └── java/
+```
 
 ## CI/CD Pipeline
 
